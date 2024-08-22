@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de mensajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <header>
+        <img src="assets/aluraoracle.png" alt="logo de alura" />
+    </header>
+    <main>
+        <form class="form__section">
+            <textarea class="form__input" name="mensaje" id="miTextarea" cols="30" rows="10"
+                placeholder="Ingrese el texto aquí"></textarea>
+            <div class="btn__container">
+                <div class="alert__msj">
+                    <img src="assets/Vectorspam.png" alt="alert" /><span>solo letras minúsculas y sin acento</span>
+                </div>
+            </div>
+            <div class="submit__container">
+                <input class="form__btn" type="submit" value="Encriptar" id="encriptarBtn" />
+                <input class="form__btn--secondary" type="submit" value="Desencriptar" id="desencriptarBtn" />
+            </div>
+        </form>
+        <aside class="result">
+            <img src="assets/Muñecoimagen.png" alt="Imagen de monito" class="result__img" />
+            <div id="carga" class="loader hidden"></div>
+            <div class="result__container">
+                <h3 class="result__title">Ningún mensaje fue encontrado</h3>
+                <p id="result__text" class="result__text">
+                    Ingresa el texto que deseas encriptar o desencriptar.
+                </p>
+                <button id="copiarBtn" class="form__btn--secondary hidden">
+                    Copiar
+                </button>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>
+
+<!---<section class="main__section">
+    <textarea id="texto_base" cols="30" raws="10" placeholder="Ingresa texto aqui"></textarea>
+    <h6 class="main_section_texto"><img src="./" alt="">No se aceptan mayuculas ni
+        caracteres especiales</h6>
+    <div class="contenedor-botones">
+        <input type="button" class="botonEncriptar" value="Encriptar">
+    -<button class="button button_Encriptar" onclick="boton_Encriptar_Texto();">Encriptar</button> --->
+    <!---<button class="button button_Desencriptar"
+                        onclick="boton_Desencriptar_Texto();">Desencriptar</button> 
+    <input type="button" class="botonDesencriptar" value="Desencriptar">
+
+    </div>
+    
+
+</section>
+
+
+            <section class="main__section__2">
+                <textarea id="texto_copiado" cols="20" raws="10" readonly></textarea>
+                <div class="botones">
+                    <button class="button_Copiar" onclick="copiar_Texto();" id="copiar">Copiar</button>
+                </div>
+
+            </section>
+
+            <section class="main__section__3">
+                <img class="main__imagen" src="./" alt="imagen_de_persona_lupa">
+                <div class="main__section_3__Textos">
+                    <h6 class="main__section_3__titulo2">Ningún mensaje fue encontrado</h6>
+                    <p class="main_section_texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+
+            </section>
+
+        </main>--->
+<!---<form>
+    <label for="input-text">Ingrese el texto aqui:</label>
+    <input type="text" id="input-text" placeholder="Solo letras minúsculas y sin acentos">
+    -<button onclick="encrypt()">Encriptar</button> -->
+    
+<!---    <input type="text" id="inputText" name="inputText" pattern="[a-z]+" required>
+    <button type="button" id="encryptButton">Encriptar</button>
+    <button type="button" id="decryptButton">Desencriptar</button>
+    
+    <button onclick="decrypt()" >Desencriptar</button> 
+    <p id="result"></p>
+</form>-->
+    
+<!--- div class="container">
+    <div class="input-container">
+        <textarea id="text-input" placeholder="Ingresa el texto aquí"></textarea>
+    </div>
+    <div class="buttons">
+        <button id="encrypt-btn" onclick="encryptText()">Encriptar</button>
+        <button id="decrypt-btn" onclick="decryptText()">Desencriptar</button>
+    </div>
+    <div class="output-container">
+        <p id="output-text">Ningún mensaje fue encontrado</p>
+    </div>
+    <div class="illustration">
+        <img src="your_image_url_here" alt="Illustration">
+    </div>
+</div> -->
