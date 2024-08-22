@@ -61,10 +61,17 @@ La aplicación permite a los usuarios ingresar un texto en un área de texto, y 
 
 ### HTML
 ```html
-<textarea id="text-input" placeholder="Ingresa el texto aquí"></textarea>
-<button id="encrypt-btn" onclick="encryptText()">Encriptar</button>
-<button id="decrypt-btn" onclick="decryptText()">Desencriptar</button>
-<p id="output-text">Ningún mensaje fue encontrado</p>
+            <textarea class="form__input" name="mensaje" id="miTextarea" cols="30" rows="10"
+                placeholder="Ingrese el texto aquí"></textarea>
+            <div class="btn__container">
+                <div class="alert__msj">
+                    <img src="assets/Vectorspam.png" alt="alert" /><span>solo letras minúsculas y sin acento</span>
+                </div>
+            </div>
+            <div class="submit__container">
+                <input class="form__btn" type="submit" value="Encriptar" id="encriptarBtn" />
+                <input class="form__btn--secondary" type="submit" value="Desencriptar" id="desencriptarBtn" />
+            </div>
 
 Créditos
 Este proyecto fue desarrollado como parte de un ejercicio educativo. La imagen utilizada en la página es un placeholder y puede ser reemplazada según la necesidad del proyecto.
