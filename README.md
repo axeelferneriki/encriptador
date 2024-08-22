@@ -1,30 +1,14 @@
 # Encriptador de Texto
 
-Este proyecto es un encriptador de texto simple que permite cifrar y descifrar mensajes utilizando el algoritmo de [inserta el algoritmo que usaste].
-
+Este proyecto es un encriptador de texto simple que permite cifrar y descifrar mensajes 
 ## Funcionalidades
 
 * **Cifrar:** Permite cifrar un mensaje utilizando la clave proporcionada.
 * **Descifrar:** Permite descifrar un mensaje cifrado utilizando la clave correcta.
 
-## Cómo usar
-
-1. **Instalar las dependencias:** [Explica cómo instalar las dependencias necesarias para ejecutar el proyecto]
-2. **Ejecutar el programa:** [Explica cómo ejecutar el programa, por ejemplo, "Ejecuta el archivo main.py"]
-3. **Ingresar el mensaje:** [Explica cómo ingresar el mensaje que se quiere cifrar o descifrar]
-4. **Ingresar la clave:** [Explica cómo ingresar la clave para cifrar o descifrar el mensaje]
-5. **Ver el resultado:** [Explica cómo se muestra el resultado del cifrado o descifrado]
-
-## Ejemplo
-Ingresa el mensaje: Hola mundo
-Ingresa la clave: 1234
-Mensaje cifrado: [Muestra el mensaje cifrado]
-Ingresa el mensaje cifrado: [Muestra el mensaje cifrado]
-Ingresa la clave: 1234
-
 # Página de Encriptado
 
-Esta es una sencilla aplicación web que permite encriptar y desencriptar texto utilizando JavaScript. La página fue creada como parte de un ejercicio para aprender sobre la manipulación de cadenas de texto, codificación en Base64, y la implementación de una interfaz web básica.
+Esta es una sencilla aplicación web que permite encriptar y desencriptar texto utilizando JavaScript. La página fue creada como parte de un ejercicio para aprender sobre la manipulación de cadenas de texto, codificación, y la implementación de una interfaz web básica.
 
 ## Descripción del Proyecto
 
@@ -32,7 +16,7 @@ La aplicación permite a los usuarios ingresar un texto en un área de texto, y 
 
 ### Características
 
-- **Encriptar Texto**: Convierte el texto ingresado en una cadena Base64.
+- **Encriptar Texto**: Convierte el texto ingresado en una cadena.
 - **Desencriptar Texto**: Convierte la cadena Base64 de vuelta al texto original.
 - **Soporte para Unicode**: La aplicación maneja correctamente caracteres especiales y acentuados.
 
@@ -51,11 +35,14 @@ La aplicación permite a los usuarios ingresar un texto en un área de texto, y 
 
 ## Cómo Funciona
 
-1. **Entrada de Texto**: El usuario ingresa el texto en un `<textarea>` con el id `text-input`.
+1. **Entrada de Texto**: El usuario ingresa el texto en un `<textarea>` con el id `miTextarea`.
 2. **Botones de Encriptado y Desencriptado**:
-   - Botón **Encriptar** con el id `encrypt-btn`: Cuando el usuario hace clic, se ejecuta la función `encryptText()`, que convierte el texto a Base64.
-   - Botón **Desencriptar** con el id `decrypt-btn`: Cuando el usuario hace clic, se ejecuta la función `decryptText()`, que convierte el texto Base64 de vuelta a su forma original.
-3. **Salida de Texto**: El texto resultante (encriptado o desencriptado) se muestra en un párrafo `<p>` con el id `output-text`.
+   - Botón **Encriptar** con el id `encrypt-btn`: Cuando el usuario hace clic, se ejecuta la función `encriptarMensaje(mensaje) `, que convierte el texto a Base64.
+   - Botón **Desencriptar** con el id `decrypt-btn`: Cuando el usuario hace clic, se ejecuta la función `desencriptarMensaje(mensaje) o decryptText()`, que convierte el texto Base64 de vuelta a su forma original.
+3. **Salida de Texto**: El texto resultante (encriptado o desencriptado) se muestra en un párrafo `<p>` con el id `result__text`.
+## Ejemplo
+Ingresa el mensaje: Hola mundo
+presionar botones y ver resultados: hola mundo(desencriptado) - hoberlai mufatndober (encriptado)
 
 ## Código
 
@@ -74,14 +61,7 @@ La aplicación permite a los usuarios ingresar un texto en un área de texto, y 
             </div>
 
 Créditos
-Este proyecto fue desarrollado como parte de un ejercicio educativo. La imagen utilizada en la página es un placeholder y puede ser reemplazada según la necesidad del proyecto.
-### Explicación
-
-- **Estructura del README**: Se incluye una introducción, la descripción del proyecto, la tecnología utilizada, una breve explicación de cómo funciona el código, y ejemplos del código relevante.
-- **Captura de Pantalla**: En el README, puedes agregar una captura de pantalla del diseño final para ayudar a otros a visualizar la aplicación.
-- **Ruta de la Imagen**: No olvides actualizar la ruta de la imagen en el README con la URL o la ruta correcta donde se almacena tu imagen.
-
-Este README debería darte una buena base para documentar tu proyecto y compartirlo con otros.
+Este proyecto fue desarrollado como parte de un ejercicio educativo. La página es un placeholder y puede ser reemplazada según la necesidad del proyecto.
 
 
 
